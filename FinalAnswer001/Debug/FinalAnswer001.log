@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\user\Desktop\lastONE\Dependencies\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "void __cdecl URender(void)" (?URender@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "void __cdecl URender(void)" (?URender@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glDrawElements@16 referenced in function "void __cdecl URender(void)" (?URender@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "void __cdecl URender(void)" (?URender@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glGetString@4 referenced in function "bool __cdecl UInitialize(int,char * * const,struct GLFWwindow * *)" (?UInitialize@@YA_NHQAPADPAPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "void __cdecl UResizeWindow(struct GLFWwindow *,int,int)" (?UResizeWindow@@YAXPAUGLFWwindow@@HH@Z)
+C:\Users\user\Desktop\lastproject\FinalAnswer001\Debug\FinalAnswer001.exe : fatal error LNK1120: 6 unresolved externals
